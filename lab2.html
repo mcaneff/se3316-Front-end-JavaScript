@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>SE 3316 - Lab 2</title>
+<meta charset="UTF-8">
+<script type='text/javascript' src='script.js'></script>
+</head>
+
+<body>
+<header style="text-align: right">
+    <input type="image" id="langswitch" style="width:30px"src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png" class="btTxt submit" align="left"/><input type="text" id="password" placeholder="Manager Mode Login" size="14">
+</header>
+<h1>Available Product</h1>
+Search:
+<input type="text" id="newitem">
+<table id="mystore" width="100%">
+
+    
+</table>
+
+<h1>Book Shelf</h1>
+<ol id=”fruits”></ol>
+
+<table id="BookShelf" style="width:100%">
+    <tr>
+        <th width="10%" id="Book" colspan="2">Book</th> 
+        <th width="10%" id="Price"> Price(CAD)</th>
+        <th width="10%" id="Tax">Tax(%)</th>
+        <th width="10%" id="Inventory">Inventory</th>
+        <th width="10%" id="Purchase">Purchase</th>
+    </tr>
+
+<template>
+    <tr>
+        <td id="view" align="center"><img src="https://www.eng.uwo.ca/img/media/news/2014/abdelkadar-ouda-teaching-award.jpg"width=100%></td>
+        <td id="product" width='20%'align="center"></td>
+        <!--<td id= "description" width='20%' align="center"></td>-->
+        <td id="price" width='15%'align="center"></td>
+        <td id="tax" width='15%'align="center"></td>
+        <td id="stock" width='15%' align="center"></td>
+        <td id="purchase" width='15%' align="center"></td>
+    </tr>
+</template> 
+<h1>Shopping Cart</h1>
+
+<table id="mycart" width="100%"><tbody id="cart"></tbody></table>
+<p align='center'><button id='buy'>Buy</button>|<button id='clear'>Clear</button></p>
+</body>
+<script type='text/javascript' src='script.js'></script>
+</html>
